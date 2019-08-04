@@ -168,7 +168,24 @@ The multi class classification tag prediction task was to  identify the programm
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/bot.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Image Caption Generator</h3>
+                        <p>
+                         This is an  image-to-caption deep learning model that can produce descriptions for real world images. A pre-trained InceptionV3 model for CNN encoder and  its last hidden layer as an embedding were used.
+		Since the problem is to generate image captions, RNN text generator should be trained on image. I used  image features as an initial state for RNN instead of zeros and  transformed the image feature vector to RNN hidden state size by fully-connected layer.
+During training the ground truth tokens were fed into the lstm to get predictions of next tokens.
 
+                        </p>
+                        <a href="https://github.com/gmt20/Image_Caption_Generator">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/project.jpg" />
