@@ -136,11 +136,8 @@
                         <h3>Chat Bot</h3>
                         <p>
                           This is a dialogue chat bot which I created as a part of Natural Language Processing course by Higher School of Economics at Coursera. This bot was hosted on Amazon Web Services and was peer reviewed.
-The Intent Recognition task in this bot involved predicting whether the user is asking a programming related question or a simple dialogue. For this binary classification problem, Logistic Regression algorithm was used.
-Once the intent is known, the next task is to find the programming language  about which the user is asking the question. For finding the relevant answer to programming-related question, the existing threads of related langauge were ranked for similarity with the user question. For converting question text to vector form we used STARSAPCE EMBEDDINGS which were trained on StackOverflow dataset.
- 
-For the chit-chat mode we used a pre-trained neural network engine available from ChatterBot.
-
+The chat bot is used to find the  answer thread relevant to user programming query. It can also carry normal conversation and chitchat. For the chit-chat mode we used a pre-trained neural network engine available from ChatterBot.
+To answer programming related questions, user intent and the programming language of the query is identified using logistic regression.
                         </p>
                         <a href="https://github.com/gmt20/StackOverFlow_bot">View Project</a>
                     </div>
